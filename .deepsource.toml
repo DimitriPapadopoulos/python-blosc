@@ -1,0 +1,9 @@
+version = 1
+
+test_patterns = ["blosc/test.py"]
+
+exclude_patterns = ["blosc/c-blosc/**", "cpuinfo.py", "bench"]
+
+[[analyzers]]
+name = "python"
+enabled = true
